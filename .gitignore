@@ -1,0 +1,73 @@
+# === Global ===
+.DS_Store
+Thumbs.db
+*.log
+*.swp
+
+# === Python (Backend) ===
+__pycache__/
+*.py[cod]
+*.egg
+*.egg-info/
+.env
+venv/
+env/
+instance/
+.idea/
+.mypy_cache/
+.pytest_cache/
+backend/.env
+backend/venv/
+
+# === Node.js (Frontend) ===
+node_modules/
+build/
+dist/
+frontend/.env
+
+# === VS Code ===
+.vscode/
+.history/
+
+# === Docker ===
+*.tar
+*.img
+*.pid
+*.sock
+
+# === Terraform ===
+*.tfstate
+*.tfstate.*
+.terraform/
+.terraform.lock.hcl
+
+# === Ansible ===
+*.retry
+inventory/*.ini
+ansible.cfg
+
+# === Postman ===
+postman/environment*.json
+postman/collection*.backup.json
+
+# === Kubernetes ===
+*.yaml~
+kubeconfig
+infra/k8s/*.bak.yaml
+
+# === Monitoring ===
+monitoring/grafana/data/
+monitoring/prometheus/data/
+
+# === Misc ===
+*.bak
+*.tmp
+*.old
+alur.MD
+
+# === Secrets (jangan upload konfigurasi sensitif) ===
+*.key
+*.pem
+*.crt
+*.vault
+*.enc
